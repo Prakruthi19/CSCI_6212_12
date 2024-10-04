@@ -93,7 +93,7 @@ class MyPoint {
     }
 }
 
-public class ClosestPairPoints {
+public class ClosestPair {
     public static void main(String[] args) {
         int[] sizes = {10, 50, 100, 500, 1000, 5000,10000, 25000, 50000 };
         DecimalFormat df = new DecimalFormat("#.######");
