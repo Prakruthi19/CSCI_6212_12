@@ -103,8 +103,8 @@ public class ClosestPairPoints {
         for (int n : sizes) {
             List<MyPoint> pointList = new ArrayList<>();
             while (pointList.size() < n) {
-                double x = rand.nextDouble() * 10; // Random points in a larger area
-                double y = rand.nextDouble() * 10; // Random points in a larger area
+                double x = rand.nextDouble() * 10; 
+                double y = rand.nextDouble() * 10;
                 MyPoint newPoint = new MyPoint(x, y);
 
                 // Check for duplicates before adding
